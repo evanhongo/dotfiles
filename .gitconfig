@@ -1,0 +1,27 @@
+[core]
+	excludesfile = ~/.gitignore
+	ignorecase = false
+[user]
+	email = evanhongo@gmail.com
+  name = evanhongo
+[alias]
+  b = branch
+  ba = branch -a
+  bm = branch --merged
+  bn = branch --no-merged
+  d = diff
+  co = "!git checkout $(git branch | fzf)"
+  a = add .
+  cm = commit
+  rs = reset
+  ph = push origin
+  pl = pull origin
+  l = log
+  lo = log --oneline
+  mg = merge
+  rb = rebase
+  us = restore --staged
+  dc = restore
+  rv = revert
+  rf = reflog
+  st = status

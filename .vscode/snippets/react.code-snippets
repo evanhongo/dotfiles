@@ -1,0 +1,34 @@
+{
+	"useState": {
+		"prefix": "us",
+		"body": [
+			"const [$1,$2] = useState($3);"
+		],
+		"description": "useState"
+	},
+	"useEffect": {
+		"prefix": "ue",
+		"body": [
+			"useEffect(() => {",
+			"  $2",
+			"}, [$1]);"
+		],
+		"description": "useEffect"
+	},
+	"useMemo": {
+		"prefix": "um",
+		"body": [
+			"useMemo(() => $2, [$1]);"
+		],
+		"description": "useMemo"
+	},
+	"useCallback": {
+		"prefix": "uc",
+		"body": [
+			"const $1 = useCallback(() => {",
+			"  $3",
+			"}, [$2]);"
+		],
+		"description": "useCallback"
+	}
+}

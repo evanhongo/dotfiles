@@ -1,0 +1,38 @@
+{
+  "return": {
+    "scope": "python",
+    "prefix": "r",
+    "body": ["return"],
+    "description": "return"
+  },
+  "print": {
+    "scope": "python",
+    "prefix": "pr",
+    "body": ["print($1)"],
+    "description": "print"
+  },
+  "try exception": {
+    "scope": "python",
+    "prefix": "try",
+    "body": ["try:", "   $1", "except Exception as e:", "   print(type(e),e)"],
+    "description": "try-exception statement"
+  },
+  "range": {
+    "scope": "python",
+    "prefix": "ra",
+    "body": ["range($1)"],
+    "description": "range"
+  },
+  "enumerate": {
+    "scope": "python",
+    "prefix": "en",
+    "body": ["enumerate($1)"],
+    "description": "enumerate"
+  },
+  "class": {
+    "scope": "python",
+    "prefix": "cla",
+    "body": ["class $1:", "   def __init__(self, $2):", "       $3"],
+    "description": "class definition"
+  }
+}
