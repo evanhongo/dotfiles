@@ -64,3 +64,6 @@ weather() {
 starwar() {
   docker run --rm -it ghcr.io/gabe565/ascii-movie play
 }
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
