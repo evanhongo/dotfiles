@@ -47,6 +47,16 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
+        "key": "ctrl+shift+up",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
         "key": "ctrl+k z",
         "command": "workbench.action.toggleZenMode"
     },
@@ -65,5 +75,15 @@
     {
         "key": "alt+g",
         "command": "-relative-goto.goto"
+    },
+    {
+        "key": "ctrl+v",
+        "command": "workbench.action.terminal.paste",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-workbench.action.terminal.paste",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
     }
 ]
