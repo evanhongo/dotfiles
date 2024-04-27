@@ -1,21 +1,17 @@
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/evan/.local/bin:$PATH"
-
-# Pyenv
-export PATH="/home/evan/.pyenv/versions/3.12.2/bin:$PATH"
+export PATH="$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/evan/.local/bin"
 
 # Snap
-export PATH="/snap/bin:$PATH"
+export PATH="$PATH:/snap/bin"
 
 # Homebrew
-export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
 
 # Golang
-export PATH="/usr/local/go/bin:/home/evan/go/bin:$PATH"
-
+export PATH="$PATH:/usr/local/go/bin:/home/evan/go/bin"
 
 alias c=clear
 alias g=git
-alias p=python3
+alias p=python
 alias d=docker
 alias top=htop
 alias ld=lazydocker
