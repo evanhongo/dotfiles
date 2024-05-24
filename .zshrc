@@ -1,13 +1,13 @@
-export PATH="$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/evan/.local/bin"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/evan/.local/bin:$PATH"
 
 # Snap
-export PATH="$PATH:/snap/bin"
+export PATH="/snap/bin:$PATH"
 
 # Homebrew
 export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
 
 # Golang
-export PATH="$PATH:/usr/local/go/bin:/home/evan/go/bin"
+export PATH="/usr/local/go/bin:/home/evan/go/bin:$PATH"
 
 alias c=clear
 alias g=git

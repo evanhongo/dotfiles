@@ -92,7 +92,7 @@
         "workbench.panel.defaultLocation": "right",
         "editor.lineNumbers": "relative",
         "zenMode.hideLineNumbers": false,
-        "editor.fontFamily": "'FantasqueSansM Nerd Font Mono', 'MesloLGS NF'",
+        "editor.fontFamily": "'Monaspace Krypton', monospace, 'FantasqueSansM Nerd Font Mono', 'MesloLGS NF'",
         "terminal.external.linuxExec": "alacritty",
         "terminal.integrated.fontFamily": "'MesloLGS NF'"
     }
