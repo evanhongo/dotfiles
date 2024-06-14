@@ -46,7 +46,7 @@
         "terminal.foreground": "#2bd378"
     },
     "todo-tree.tree.showScanModeButton": false,
-    "todo-tree.regex.regex": "//($TAGS)",
+    "todo-tree.regex.regex": "(//|#)\\s*($TAGS)",
     "todo-tree.general.tags": [
         "TODO",
         "FIXME",
