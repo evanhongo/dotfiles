@@ -9,20 +9,23 @@ export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
 # Golang
 export PATH="/usr/local/go/bin:/home/evan/go/bin:$PATH"
 
+# Alias
 alias c=clear
 alias g=git
 alias p=python
 alias d=docker
 alias top=htop
-alias ld=lazydocker
 alias ls='exa'
 alias lt='exa --tree --level=3'
+alias fk=fuck
+alias cd=z
 alias tn='tmux new -s'
 alias ta='tmux a -t'
 alias vim=nvim
-alias fk=fuck
+alias ld=lazydocker
 alias show=cmatrix
 
+# Configure thefuck
 eval $(thefuck --alias)
 
 # Find directory and cd
@@ -31,6 +34,16 @@ fd() {
   dir=$(find ${1:-.} -path '*/\.*' -prune \
 				  -o -type d -print 2> /dev/null | fzf +m) &&
   cd "$dir"
+}
+
+# Configure yazi
+yy() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
 }
 
 # Search command and execute
