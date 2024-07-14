@@ -3,7 +3,7 @@
 	ignorecase = false
 [user]
 	email = evanhongo@gmail.com
-  name = evanhongo
+  	name = evanhongo
 [alias]
   b = branch
   ba = branch -a
