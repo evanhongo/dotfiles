@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 3,
+    "window.zoomLevel": 1,
     "breadcrumbs.enabled": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.formatOnPaste": true,
@@ -20,16 +20,10 @@
     },
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.languageServer": "Microsoft",
+    "python.languageServer": "Pylance",
     "java.semanticHighlighting.enabled": true,
     "mdb.shell": "mongosh",
     "workbench.editor.highlightModifiedTabs": true,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
     "powermode.enabled": true,
     "powermode.presets": "exploding-rift",
     "workbench.iconTheme": "vscode-icons",
@@ -86,14 +80,15 @@
             "icon": "note",
             "rulerColour": "orange",
             "iconColour": "orange",
-        },
-        "vscode-pets.petSize": "medium",
-        "vscode-pets.petColor": "orange",
-        "workbench.panel.defaultLocation": "right",
-        "editor.lineNumbers": "relative",
-        "zenMode.hideLineNumbers": false,
-        "editor.fontFamily": "'Monaspace Krypton', monospace, 'FantasqueSansM Nerd Font Mono', 'MesloLGS NF'",
-        "terminal.external.linuxExec": "alacritty",
-        "terminal.integrated.fontFamily": "'MesloLGS NF'"
-    }
+        }
+    },
+    "vscode-pets.petSize": "medium",
+    "vscode-pets.petColor": "orange",
+    "workbench.panel.defaultLocation": "right",
+    "zenMode.hideLineNumbers": false,
+    "editor.fontFamily": "'Monaspace Krypton', monospace, 'FantasqueSansM Nerd Font Mono', 'MesloLGS NF'",
+    "terminal.integrated.fontFamily": "'MesloLGS NF'",
+    "editor.lineNumbers": "relative",
+    "terminal.external.linuxExec": "alacritty",
+    "terminal.external.osxExec": "alacritty"
 }
