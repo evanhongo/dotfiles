@@ -1,94 +1,84 @@
 {
-    "window.zoomLevel": 1,
-    "breadcrumbs.enabled": true,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.guides.bracketPairs": true,
-    "editor.tokenColorCustomizations": {
-        "comments": "#1ddd5d"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.languageServer": "Pylance",
-    "java.semanticHighlighting.enabled": true,
-    "mdb.shell": "mongosh",
-    "workbench.editor.highlightModifiedTabs": true,
-    "powermode.enabled": true,
-    "powermode.presets": "exploding-rift",
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Shades Of Blue",
-    "workbench.preferredDarkColorTheme": "Black Italic",
-    "workbench.colorCustomizations": {
-        "diffEditor.insertedTextBackground": "#216772",
-        "diffEditor.insertedTextBorder": "#00000000",
-        "diffEditor.removedTextBackground": "#804f27",
-        "diffEditor.removedTextBorder": "#00000000",
-        "editor.selectionBackground": "#1f6fbf",
-        "editor.selectionHighlightBackground": "#1d66bd90",
-        "terminal.background": "#002b36",
-        "terminal.foreground": "#2bd378"
-    },
-    "todo-tree.tree.showScanModeButton": false,
-    "todo-tree.regex.regex": "(//|#)\\s*($TAGS)",
-    "todo-tree.general.tags": [
-        "TODO",
-        "FIXME",
-        "DONE",
-        "NOTE",
-    ],
-    "todo-tree.regex.regexCaseSensitive": false,
-    "todo-tree.highlights.defaultHighlight": {
-        "foreground": "white",
-        "background": "green",
-        "icon": "check",
-        "rulerColour": "green",
-        "type": "tag",
-        "iconColour": "gold"
-    },
-    "todo-tree.highlights.customHighlight": {
-        "TODO": {
-            "background": "purple",
-            "icon": "bell",
-            "rulerColour": "purple",
-            "iconColour": "purple"
-        },
-        "FIXME": {
-            "background": "red",
-            "icon": "beaker",
-            "rulerColour": "red",
-            "iconColour": "red",
-        },
-        "DONE": {
-            "background": "green",
-            "icon": "issue-closed",
-            "rulerColour": "black",
-            "iconColour": "green",
-        },
-        "NOTE": {
-            "background": "orange",
-            "icon": "note",
-            "rulerColour": "orange",
-            "iconColour": "orange",
-        }
-    },
-    "vscode-pets.petSize": "medium",
-    "vscode-pets.petColor": "orange",
-    "workbench.panel.defaultLocation": "right",
-    "zenMode.hideLineNumbers": false,
-    "editor.fontFamily": "'Monaspace Krypton', monospace, 'FantasqueSansM Nerd Font Mono', 'MesloLGS NF'",
-    "terminal.integrated.fontFamily": "'MesloLGS NF'",
-    "editor.lineNumbers": "relative",
-    "terminal.external.linuxExec": "alacritty",
-    "terminal.external.osxExec": "alacritty"
+	"breadcrumbs.enabled": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.fontFamily": "'Monaspace Krypton', monospace, 'FantasqueSansM Nerd Font Mono', 'MesloLGS NF'",
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.guides.bracketPairs": true,
+	"editor.insertSpaces": false,
+	"editor.lineNumbers": "relative",
+	"editor.suggestSelection": "first",
+	"editor.tabSize": 2,
+	"editor.tokenColorCustomizations": {
+		"comments": "#1ddd5d"
+	},
+	"mdb.shell": "mongosh",
+	"powermode.enabled": true,
+	"powermode.presets": "exploding-rift",
+	"prettier.arrowParens": "avoid",
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.trailingComma": "none",
+	"prettier.useTabs": true,
+	"python.languageServer": "Pylance",
+	"terminal.external.linuxExec": "alacritty",
+	"terminal.external.osxExec": "alacritty",
+	"terminal.integrated.fontFamily": "'MesloLGS NF'",
+	"todo-tree.general.tags": ["TODO", "FIXME", "DONE", "NOTE"],
+	"todo-tree.highlights.customHighlight": {
+		"DONE": {
+			"background": "green",
+			"icon": "issue-closed",
+			"iconColour": "green",
+			"rulerColour": "black"
+		},
+		"FIXME": {
+			"background": "red",
+			"icon": "beaker",
+			"iconColour": "red",
+			"rulerColour": "red"
+		},
+		"NOTE": {
+			"background": "orange",
+			"icon": "note",
+			"iconColour": "orange",
+			"rulerColour": "orange"
+		},
+		"TODO": {
+			"background": "purple",
+			"icon": "bell",
+			"iconColour": "purple",
+			"rulerColour": "purple"
+		}
+	},
+	"todo-tree.highlights.defaultHighlight": {
+		"background": "green",
+		"foreground": "white",
+		"icon": "check",
+		"iconColour": "gold",
+		"rulerColour": "green",
+		"type": "tag"
+	},
+	"todo-tree.regex.regex": "(//|#|<!--).*($TAGS)",
+	"todo-tree.regex.regexCaseSensitive": false,
+	"vscode-pets.petColor": "orange",
+	"vscode-pets.petSize": "medium",
+	"window.zoomLevel": 1,
+	"workbench.colorCustomizations": {
+		"diffEditor.insertedTextBackground": "#216772",
+		"diffEditor.insertedTextBorder": "#00000000",
+		"diffEditor.removedTextBackground": "#804f27",
+		"diffEditor.removedTextBorder": "#00000000",
+		"editor.selectionBackground": "#1f6fbf",
+		"editor.selectionHighlightBackground": "#1d66bd90",
+		"terminal.background": "#002b36",
+		"terminal.foreground": "#2bd378"
+	},
+	"workbench.colorTheme": "Shades Of Blue",
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.panel.defaultLocation": "right",
+	"workbench.preferredDarkColorTheme": "Black Italic",
+	"zenMode.hideLineNumbers": false
 }
