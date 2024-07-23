@@ -77,6 +77,7 @@
 	},
 	"workbench.colorTheme": "Shades Of Blue",
 	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editor.navigationScope": "editor",
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.panel.defaultLocation": "right",
 	"workbench.preferredDarkColorTheme": "Black Italic",
