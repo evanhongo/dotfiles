@@ -60,7 +60,7 @@
 		"rulerColour": "green",
 		"type": "tag"
 	},
-	"todo-tree.regex.regex": "(//|#|<!--).*($TAGS)",
+	"todo-tree.regex.regex": "(//|#|<!--).*($TAGS):",
 	"todo-tree.regex.regexCaseSensitive": false,
 	"vscode-pets.petColor": "orange",
 	"vscode-pets.petSize": "medium",
