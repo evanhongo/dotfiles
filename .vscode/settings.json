@@ -14,6 +14,9 @@
 		"comments": "#1ddd5d"
 	},
 	"mdb.shell": "mongosh",
+	"path-intellisense.mappings": {
+		"@": "${workspaceRoot}/src"
+	},
 	"powermode.enabled": true,
 	"powermode.presets": "exploding-rift",
 	"prettier.arrowParens": "avoid",
