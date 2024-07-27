@@ -16,9 +16,11 @@
 	},
 	"plugins": ["prettier"],
 	"rules": {
+		"class-methods-use-this": "off",
 		"comma-dangle": ["error", "never"],
 		"import/prefer-default-export": 0,
 		"indent": 0,
+		"max-classes-per-file": "off",
 		"max-len": 0,
 		"no-bitwise": 0,
 		"no-console": "off",
