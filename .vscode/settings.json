@@ -13,6 +13,11 @@
 	"editor.tokenColorCustomizations": {
 		"comments": "#1ddd5d"
 	},
+	"eslint.workingDirectories": [
+		{
+			"mode": "auto"
+		}
+	],
 	"mdb.shell": "mongosh",
 	"path-intellisense.mappings": {
 		"@": "${workspaceRoot}/src"

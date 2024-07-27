@@ -1,0 +1,70 @@
+{
+	// "requiredDependencies": [
+	// 	"@babel/eslint-parser",
+	// 	"eslint",
+	// 	"eslint-config-airbnb",
+	// 	"eslint-config-prettier",
+	// 	"eslint-plugin-import",
+	// 	"eslint-plugin-prettier",
+	// 	"babel-plugin-module-resolver",
+	// 	"eslint-import-resolver-babel-module"
+	// ],
+	"extends": ["airbnb-base", "prettier"],
+	"parser": "@babel/eslint-parser",
+	"parserOptions": {
+		"requireConfigFile": false
+	},
+	"plugins": ["prettier"],
+	"rules": {
+		"comma-dangle": ["error", "never"],
+		"import/prefer-default-export": 0,
+		"indent": 0,
+		"max-len": 0,
+		"no-bitwise": 0,
+		"no-console": "off",
+		"no-continue": 0,
+		"no-else-return": 0,
+		"no-inner-declarations": 0,
+		"no-lonely-if": 0,
+		"no-mixed-operators": 0,
+		"no-param-reassign": 0,
+		"no-plusplus": 0,
+		"no-shadow": 0,
+		"no-tabs": 0,
+		"no-undef": 2,
+		"no-underscore-dangle": 0,
+		"no-unused-vars": [
+			"error",
+			{
+				"args": "none",
+				"vars": "all"
+			}
+		],
+		"no-use-before-define": [
+			"error",
+			{
+				"allowNamedExports": false,
+				"classes": true,
+				"functions": true,
+				"variables": false
+			}
+		],
+		"no-useless-return": 0,
+		"object-property-newline": 0,
+		"prefer-destructuring": "off",
+		"prefer-template": 0,
+		"prettier/prettier": "error",
+		"quote-props": 0,
+		"spaced-comment": 0
+	},
+	"settings": {
+		"import/resolver": {
+			"babel-module": {
+				"alias": {
+					"@": "./src"
+				},
+				"extensions": [".js"]
+			}
+		}
+	}
+}
