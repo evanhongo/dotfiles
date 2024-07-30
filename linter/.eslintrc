@@ -19,6 +19,12 @@
 		"arrow-body-style": "off",
 		"class-methods-use-this": "off",
 		"comma-dangle": ["error", "never"],
+		"import/no-extraneous-dependencies": [
+			"error",
+			{
+				"devDependencies": ["**/*.test.js", "**/*.spec.js", "**/*.config.js"]
+			}
+		],
 		"import/prefer-default-export": 0,
 		"indent": 0,
 		"max-classes-per-file": "off",
