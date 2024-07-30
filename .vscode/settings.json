@@ -1,5 +1,6 @@
 {
 	"breadcrumbs.enabled": true,
+	"ConyBlockBrace.enabled": true,
 	"editor.bracketPairColorization.enabled": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.fontFamily": "'Monaspace Krypton', monospace, 'FantasqueSansM Nerd Font Mono', 'MesloLGS NF'",
