@@ -84,11 +84,11 @@
 	},
 	{
 		"command": "editor.gotoNextFold",
-		"key": "alt+'"
+		"key": "alt+x"
 	},
 	{
 		"command": "editor.gotoPreviousFold",
-		"key": "alt+;"
+		"key": "alt+z"
 	},
 	{
 		"command": "editor.gotoParentFold",
@@ -96,11 +96,11 @@
 	},
 	{
 		"command": "workbench.action.navigateBackInEditLocations",
-		"key": "alt+z"
+		"key": "alt+c"
 	},
 	{
 		"command": "workbench.action.navigateForwardInEditLocations",
-		"key": "alt+x"
+		"key": "alt+v"
 	},
 	{
 		"key": "alt+.",
