@@ -9,6 +9,10 @@
 		"key": "alt+q"
 	},
 	{
+		"command": "workbench.action.gotoLine",
+		"key": "ctrl+g"
+	},
+	{
 		"command": "editor.action.goToReferences",
 		"key": "alt+r",
 		"when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
@@ -20,7 +24,7 @@
 	},
 	{
 		"command": "breadcrumbs.focusAndSelect",
-		"key": "alt+/",
+		"key": "alt+\\",
 		"when": "breadcrumbsPossible"
 	},
 	{
@@ -30,7 +34,7 @@
 	},
 	{
 		"command": "editor.action.jumpToBracket",
-		"key": "ctrl+shift+oem_5" //ctrl + shift + \
+		"key": "alt+o"
 	},
 	{
 		"command": "editor.action.copyLinesUpAction",
@@ -51,10 +55,6 @@
 		"command": "editor.action.insertCursorBelow",
 		"key": "ctrl+shift+down",
 		"when": "editorTextFocus"
-	},
-	{
-		"command": "workbench.action.toggleZenMode",
-		"key": "alt+z"
 	},
 	{
 		"command": "workbench.action.splitEditor",
@@ -84,11 +84,11 @@
 	},
 	{
 		"command": "editor.gotoNextFold",
-		"key": "alt+v"
+		"key": "alt+'"
 	},
 	{
 		"command": "editor.gotoPreviousFold",
-		"key": "alt+c"
+		"key": "alt+;"
 	},
 	{
 		"command": "editor.gotoParentFold",
@@ -103,7 +103,53 @@
 		"key": "alt+x"
 	},
 	{
+		"key": "alt+.",
+		"command": "cursorHome",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+/",
+		"command": "cursorEnd",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+l alt+o",
+		"command": "-extension.liveServer.goOnline",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+i",
+		"command": "cursorUp",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+k",
+		"command": "cursorDown",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+j",
+		"command": "cursorLeft",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+l",
+		"command": "cursorRight",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+m",
+		"command": "cursorWordLeft",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+,",
+		"command": "cursorWordEndRight",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "alt+=",
 		"command": "workbench.action.toggleZenMode",
-		"key": "alt+'"
+		"when": "!isAuxiliaryWindowFocusedContext"
 	}
 ]
