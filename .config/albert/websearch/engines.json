@@ -25,6 +25,14 @@
     },
     {
         "fallback": true,
+        "iconPath": ":default",
+        "id": "7cb3dce8",
+        "name": "Google Drive",
+        "trigger": "gd",
+        "url": "https://drive.google.com/drive/search?q=%s"
+    },
+    {
+        "fallback": true,
         "iconPath": ":maps",
         "id": "bc4a0624",
         "name": "Google Maps",
@@ -38,6 +46,38 @@
         "name": "Google Translate",
         "trigger": "gt",
         "url": "https://translate.google.com/?text=%s"
+    },
+    {
+        "fallback": true,
+        "iconPath": ":default",
+        "id": "5e556337",
+        "name": "Kagi",
+        "trigger": "k",
+        "url": "https://kagi.com/search?q=%s"
+    },
+    {
+        "fallback": true,
+        "iconPath": ":default",
+        "id": "8dee6f9d",
+        "name": "Lawsnote",
+        "trigger": "law",
+        "url": "https://lawsnote.com/search/all/%s"
+    },
+    {
+        "fallback": true,
+        "iconPath": ":default",
+        "id": "785e7f27",
+        "name": "Stack Overflow",
+        "trigger": "so",
+        "url": "https://stackoverflow.com/search?q=%s"
+    },
+    {
+        "fallback": true,
+        "iconPath": ":default",
+        "id": "64176016",
+        "name": "Twitter",
+        "trigger": "x",
+        "url": "https://twitter.com/search?q=%s"
     },
     {
         "fallback": true,
