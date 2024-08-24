@@ -34,7 +34,7 @@
 	},
 	{
 		"command": "editor.action.jumpToBracket",
-		"key": "alt+o"
+		"key": "alt+n"
 	},
 	{
 		"command": "editor.action.copyLinesUpAction",
@@ -62,7 +62,7 @@
 	},
 	{
 		"command": "relative-goto.goto",
-		"key": "alt+a"
+		"key": "alt+g"
 	},
 	{
 		"command": "workbench.action.terminal.paste",
@@ -103,12 +103,12 @@
 		"key": "alt+v"
 	},
 	{
-		"key": "alt+.",
+		"key": "alt+m",
 		"command": "cursorHome",
 		"when": "textInputFocus"
 	},
 	{
-		"key": "alt+/",
+		"key": "alt+,",
 		"command": "cursorEnd",
 		"when": "textInputFocus"
 	},
@@ -138,12 +138,12 @@
 		"when": "textInputFocus"
 	},
 	{
-		"key": "alt+m",
+		"key": "alt+.",
 		"command": "cursorWordLeft",
 		"when": "textInputFocus"
 	},
 	{
-		"key": "alt+,",
+		"key": "alt+/",
 		"command": "cursorWordEndRight",
 		"when": "textInputFocus"
 	},
@@ -151,5 +151,45 @@
 		"key": "alt+=",
 		"command": "workbench.action.toggleZenMode",
 		"when": "!isAuxiliaryWindowFocusedContext"
+	},
+	{
+		"key": "alt+[",
+		"command": "workbench.action.openRecent"
+	},
+	{
+		"key": "alt+g",
+		"command": "-relative-goto.goto"
+	},
+	{
+		"key": "alt+]",
+		"command": "workbench.action.quickOpen"
+	},
+	{
+		"key": "alt+a alt+j",
+		"command": "cursor-flight.jumpLeft",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+a alt+k",
+		"command": "cursor-flight.jumpDown",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+a alt+l",
+		"command": "cursor-flight.jumpRight",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+a alt+i",
+		"command": "cursor-flight.jumpUp",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+o",
+		"command": "cursor-ninja.jumpToNextSymbol"
+	},
+	{
+		"key": "alt+u",
+		"command": "cursor-ninja.jumpToPreviousSymbol"
 	}
 ]

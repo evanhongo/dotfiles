@@ -1,6 +1,7 @@
 {
 	"breadcrumbs.enabled": true,
 	"ConyBlockBrace.enabled": true,
+	"cursor-flight.horizontalJumpAmount": 5,
 	"editor.bracketPairColorization.enabled": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.fontFamily": "'Monaspace Krypton', monospace, 'FantasqueSansM Nerd Font Mono', 'MesloLGS NF'",
@@ -88,7 +89,7 @@
 	"workbench.editor.highlightModifiedTabs": true,
 	"workbench.editor.navigationScope": "editor",
 	"workbench.iconTheme": "vscode-icons",
-	"workbench.panel.defaultLocation": "right",
+	"workbench.panel.defaultLocation": "bottom",
 	"workbench.preferredDarkColorTheme": "Black Italic",
 	"zenMode.hideLineNumbers": false
 }
