@@ -191,5 +191,9 @@
 	{
 		"key": "alt+u",
 		"command": "cursor-ninja.jumpToPreviousSymbol"
+	},
+	{
+		"key": "alt+h",
+		"command": "git.viewFileHistory"
 	}
 ]
